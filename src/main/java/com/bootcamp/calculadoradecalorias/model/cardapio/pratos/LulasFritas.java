@@ -1,4 +1,4 @@
-package com.bootcamp.calculadoradecalorias.service.cardapio;
+package com.bootcamp.calculadoradecalorias.model.cardapio.pratos;
 import com.bootcamp.calculadoradecalorias.model.cardapio.Igrediente;
 import com.bootcamp.calculadoradecalorias.model.cardapio.Prato;
 
@@ -8,6 +8,6 @@ public class LulasFritas extends Prato {
     public LulasFritas() {
         setIgredientes(lula);
 
-        setNome("Lulas fritas");
+        setNome("Lula Frita");
     }
 }

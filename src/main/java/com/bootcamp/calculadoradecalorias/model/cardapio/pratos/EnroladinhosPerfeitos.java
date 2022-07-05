@@ -1,4 +1,4 @@
-package com.bootcamp.calculadoradecalorias.service.cardapio;
+package com.bootcamp.calculadoradecalorias.model.cardapio.pratos;
 import com.bootcamp.calculadoradecalorias.model.cardapio.Igrediente;
 import com.bootcamp.calculadoradecalorias.model.cardapio.Prato;
 

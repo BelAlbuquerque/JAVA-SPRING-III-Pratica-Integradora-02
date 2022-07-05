@@ -1,4 +1,4 @@
-package com.bootcamp.calculadoradecalorias.service.cardapio;
+package com.bootcamp.calculadoradecalorias.model.cardapio.pratos;
 import com.bootcamp.calculadoradecalorias.model.cardapio.Igrediente;
 import com.bootcamp.calculadoradecalorias.model.cardapio.Prato;
 
@@ -12,6 +12,6 @@ public class PolentaVegetariana extends Prato {
         setIgredientes(queijo);
         setIgredientes(cogumelos);
 
-        setNome("Polenta com ragu de cogumelos");
+        setNome("Polenta com Ragu de Cogumelos");
     }
 }

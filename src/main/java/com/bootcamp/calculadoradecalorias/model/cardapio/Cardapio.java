@@ -12,5 +12,10 @@ import java.util.ArrayList;
 @AllArgsConstructor
 @Repository
 public class Cardapio {
-    private ArrayList<Prato> pratos;
+    private ArrayList<Prato> pratos = new ArrayList<Prato>();
+
+    public void setPrato(Prato prato) {
+        pratos.add(prato);
+    }
+
 }

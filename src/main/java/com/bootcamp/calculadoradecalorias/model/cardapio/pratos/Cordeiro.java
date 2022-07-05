@@ -1,4 +1,4 @@
-package com.bootcamp.calculadoradecalorias.service.cardapio;
+package com.bootcamp.calculadoradecalorias.model.cardapio.pratos;
 import com.bootcamp.calculadoradecalorias.model.cardapio.Igrediente;
 import com.bootcamp.calculadoradecalorias.model.cardapio.Prato;
 
@@ -15,6 +15,7 @@ public class Cordeiro extends Prato {
         setIgredientes(nozes);
         setIgredientes(pureDeBatata);
         setIgredientes(trufa);
-        setNome("Cordeiro dos sonhos");
+        setNome("Cordeiro dos Sonhos");
     }
+
 }
